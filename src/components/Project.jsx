@@ -66,7 +66,7 @@ const Project = () => {
             project aimed to create an engaging and user-friendly website for an
             online bookstore. The purpose of the website was to provide a
             platform for users to explore and purchase books online. This was my
-            first college project and I was very happy of this outcome.
+            first college project and I was very happy of this outcome. This project increased my confidence.
           </p>
           <button
             type="button"
