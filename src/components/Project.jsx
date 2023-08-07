@@ -58,16 +58,15 @@ const Project = () => {
             BookStore Project
           </h1>
           <p className=" text-justify pt-4 font-medium text-sm">
-            Designed a fully dynamic clothing website through Java web
-            development along with both admin and user interfaces. This project
-            follows the MVC pattern. It contains the login system, admin panel
-            and home page through which the user can register and login into the
-            system and can search for the products throught the search mechanism
-            and can add the product to the cart and order. It also contains the
-            admin panel through which the user can add the product information
-            and edit or delete the products. It also allows the admin to view
-            the order list of each client and can also view the total number of
-            users, products, and orders.{" "}
+            A static bookshop website developed using HTML, CSS and Javascript
+            is a platform that displays a variety of books and enables users to
+            explore and buy them. The website predominantly comprises fixed
+            information and does not include interactive or dynamically changing
+            elements. The Online BookStore Static Frontend Website Design
+            project aimed to create an engaging and user-friendly website for an
+            online bookstore. The purpose of the website was to provide a
+            platform for users to explore and purchase books online. This was my
+            first college project and I was very happy of this outcome.
           </p>
           <button
             type="button"
@@ -88,16 +87,16 @@ const Project = () => {
             GPT-3 Project
           </h1>
           <p className=" text-justify pt-4 font-medium text-sm">
-            Designed a fully dynamic clothing website through Java web
-            development along with both admin and user interfaces. This project
-            follows the MVC pattern. It contains the login system, admin panel
-            and home page through which the user can register and login into the
-            system and can search for the products throught the search mechanism
-            and can add the product to the cart and order. It also contains the
-            admin panel through which the user can add the product information
-            and edit or delete the products. It also allows the admin to view
-            the order list of each client and can also view the total number of
-            users, products, and orders.{" "}
+            The GPT-3-Powered React Frontend Project was an innovative
+            undertaking that harnessed the capabilities of OpenAI's GPT-3
+            language model to create an interactive and dynamic user interface
+            using the React JavaScript library. This project aimed to showcase
+            the integration of advanced AI technologies within a user-friendly
+            web application, demonstrating my proficiency in React development
+            and API integration. I structured the frontend application using
+            React's component-based architecture. This allowed for modular and
+            maintainable code, facilitating the development of various UI
+            elements and functionalities.
           </p>
           <button
             type="button"
@@ -118,16 +117,16 @@ const Project = () => {
             Ecommerce Project
           </h1>
           <p className=" text-justify pt-4 font-medium text-sm">
-            Designed a fully dynamic clothing website through Java web
-            development along with both admin and user interfaces. This project
-            follows the MVC pattern. It contains the login system, admin panel
-            and home page through which the user can register and login into the
-            system and can search for the products throught the search mechanism
-            and can add the product to the cart and order. It also contains the
-            admin panel through which the user can add the product information
-            and edit or delete the products. It also allows the admin to view
-            the order list of each client and can also view the total number of
-            users, products, and orders.{" "}
+            The E-commerce Website Development with React project was a dynamic
+            endeavor focused on creating a modern, user-friendly, and responsive
+            online shopping platform using the React JavaScript library. This
+            project aimed to provide users with a seamless and engaging shopping
+            experience while showcasing my expertise in React development, UI/UX
+            design, and frontend technologies. I utilized React's
+            component-based architecture to design and implement various UI
+            elements and features. Through efficient state management, I ensured
+            dynamic updates to the user interface without page reloads,
+            resulting in smooth interactions.
           </p>
           <button
             type="button"
