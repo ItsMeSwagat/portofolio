@@ -12,12 +12,12 @@ const Footer = () => {
                   <span class="self-center text-4xl font-semibold whitespace-nowrap dark:text-white">PORTO<span className=' text-yellow-400'>FOLIO</span></span>
               </a>
           </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div class="grid grid-cols-2 gap-8 sm:gap-6  sm:grid-cols-3">
               <div>
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Address</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="" class="hover:underline">Saraswatinagar, Kapan</a>
+                          <a href="" class="hover:underline">Saraswatinagar,<br /> Kapan</a>
                       </li>
                       <li>
                           <a href='' class="hover:underline">+977 9746899082</a>
@@ -32,17 +32,6 @@ const Footer = () => {
                       </li>
                       <li>
                           <a href="https://www.linkedin.com/in/swagatshrestha/" class="hover:underline">LinkedIn</a>
-                      </li>
-                  </ul>
-              </div>
-              <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                      <li class="mb-4">
-                          <a href="#" class="hover:underline">Privacy Policy</a>
-                      </li>
-                      <li>
-                          <a href="#" class="hover:underline">Terms &amp; Conditions</a>
                       </li>
                   </ul>
               </div>
