@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portofolio/static/css/main.33f89a65.css",
-    "main.js": "/portofolio/static/js/main.5999ec27.js",
-    "static/media/bookstore.png": "/portofolio/static/media/bookstore.e9dac72e04d00ce1047e.png",
-    "static/media/gpt3.png": "/portofolio/static/media/gpt3.929f756e25e2cd35a025.png",
-    "static/media/eapp.png": "/portofolio/static/media/eapp.abb821fab5ac1ba9e332.png",
-    "static/media/Ecommerce.png": "/portofolio/static/media/Ecommerce.791b7c64d70a559c77c0.png",
-    "static/media/bman.png": "/portofolio/static/media/bman.67c11eb8a1cd262dcc24.png",
-    "index.html": "/portofolio/index.html",
-    "main.33f89a65.css.map": "/portofolio/static/css/main.33f89a65.css.map",
-    "main.5999ec27.js.map": "/portofolio/static/js/main.5999ec27.js.map"
+    "main.css": "/static/css/main.33f89a65.css",
+    "main.js": "/static/js/main.f446ae9e.js",
+    "static/media/bookstore.png": "/static/media/bookstore.e9dac72e04d00ce1047e.png",
+    "static/media/gpt3.png": "/static/media/gpt3.929f756e25e2cd35a025.png",
+    "static/media/eapp.png": "/static/media/eapp.abb821fab5ac1ba9e332.png",
+    "static/media/Ecommerce.png": "/static/media/Ecommerce.791b7c64d70a559c77c0.png",
+    "static/media/bman.png": "/static/media/bman.67c11eb8a1cd262dcc24.png",
+    "index.html": "/index.html",
+    "main.33f89a65.css.map": "/static/css/main.33f89a65.css.map",
+    "main.f446ae9e.js.map": "/static/js/main.f446ae9e.js.map"
   },
   "entrypoints": [
     "static/css/main.33f89a65.css",
-    "static/js/main.5999ec27.js"
+    "static/js/main.f446ae9e.js"
   ]
 }
