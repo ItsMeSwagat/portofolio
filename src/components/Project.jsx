@@ -9,7 +9,11 @@ import { FaGithub } from "react-icons/fa";
 const Project = () => {
   return (
     <div id="Projects" className=" relative w-full h-full bg-black">
-      <div className="flex justify-center pt-16">
+      <div
+        className="flex justify-center pt-16"
+        data-aos="zoom-out-up"
+        data-aos-duration="1500"
+      >
         <h1 className=" text-center text-4xl sm:text-6xl md:text-7xl font-bold text-white">
           Proj
         </h1>
@@ -17,12 +21,20 @@ const Project = () => {
           ects
         </h1>
       </div>
-      <span className="flex text-center justify-center font-medium text-sm sm:text-lg md:text-2xl pt-4 text-white">
+      <span
+        className="flex text-center justify-center font-medium text-sm sm:text-lg md:text-2xl pt-4 text-white"
+        data-aos="zoom-out-up"
+        data-aos-duration="1500"
+      >
         Various Frontend Projects
       </span>
 
       <div className="grid grid-cols-1 place-items-center sm:grid-cols-1 md:grid-cols-2  lg:grid-cols-2 md:gap-4 mt-24 mx-4 sm:mx-10 md:mx-36 pb-16 gap-4">
-        <div className=" mx-4 p-4 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg">
+        <div
+          className=" mx-4 p-4 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <img className=" object-cover" src={ADP} alt="ADP" />
           <h1 className=" text-center text-lg sm:text-xl md:text-2xl font-bold pt-2">
             Java Project
@@ -52,7 +64,11 @@ const Project = () => {
             </a>
           </button>
         </div>
-        <div className=" mx-4 p-4 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg">
+        <div
+          className=" mx-4 p-4 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
           <img className=" object-cover" src={Bookstore} alt="ADP" />
           <h1 className=" text-center text-lg sm:text-xl md:text-2xl font-bold pt-2">
             BookStore Project
@@ -66,7 +82,8 @@ const Project = () => {
             project aimed to create an engaging and user-friendly website for an
             online bookstore. The purpose of the website was to provide a
             platform for users to explore and purchase books online. This was my
-            first college project and I was very happy of this outcome. This project increased my confidence.
+            first college project and I was very happy of this outcome. This
+            project increased my confidence.
           </p>
           <button
             type="button"
@@ -81,7 +98,11 @@ const Project = () => {
             </a>
           </button>
         </div>
-        <div className=" mx-4 p-4 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg">
+        <div
+          className=" mx-4 p-4 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <img className=" object-cover" src={GPT} alt="ADP" />
           <h1 className=" text-center text-lg sm:text-xl md:text-2xl font-bold pt-2">
             GPT-3 Project
@@ -111,7 +132,11 @@ const Project = () => {
             </a>
           </button>
         </div>
-        <div className=" mx-4 p-4 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg">
+        <div
+          className=" mx-4 p-4 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
           <img className=" object-cover" src={EAPP} alt="ADP" />
           <h1 className=" text-center text-lg sm:text-xl md:text-2xl font-bold pt-2">
             Ecommerce Project
