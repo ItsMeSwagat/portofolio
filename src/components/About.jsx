@@ -5,7 +5,7 @@ const About = () => {
     <div id="About" className=" relative w-full h-full mb-20">
       <div
         className="flex justify-center pt-16"
-        data-aos="zoom-out-up"
+        data-aos="zoom-in-up"
         data-aos-duration="1500"
       >
         <h1 className=" text-center text-4xl sm:text-6xl md:text-7xl  font-bold">
@@ -17,7 +17,7 @@ const About = () => {
       </div>
       <span
         className="flex text-center justify-center font-medium pt-4 text-sm w-auto h-auto sm:text-lg md:text-2xl px-10"
-        data-aos="zoom-out-up"
+        data-aos="zoom-in-up"
         data-aos-duration="1500"
       >
         Hello there! I'm Swagat Shrestha, a frontend developer passionate about
