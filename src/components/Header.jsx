@@ -1,11 +1,12 @@
 import React from "react";
 import Bman from "../assets/bman.png";
 
+
 const Header = () => {
   return (
     <div
       id="home"
-      className=" relative w-full h-screen justify-center items-center bg-black"
+      className=" relative w-full h-screen justify-center items-center bg-black" 
     >
       <div
         className=" flex-col text-center pt-56"

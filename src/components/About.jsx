@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="About" className=" relative w-full h-full mb-20">
+    <div id="About" className=" relative w-full h-full justify-center items-center py-20">
       <div
         className="flex justify-center pt-16"
         data-aos="zoom-in-up"
@@ -25,7 +25,7 @@ const About = () => {
         <br />
       </span>
 
-      <div className="grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-2  lg:grid-cols-4 md:gap-4 mt-24 pb-4 gap-4">
+      <div className="grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-2  lg:grid-cols-4 md:gap-4 mt-24 pb-24 gap-4">
         <div
           className=" flex flex-col mx-4 p-4 w-80 h-64 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg"
           data-aos="fade-up"

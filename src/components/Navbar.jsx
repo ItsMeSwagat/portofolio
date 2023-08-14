@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { BiMenu } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
+import CV from "../assets/CV.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -39,7 +40,7 @@ const Navbar = () => {
           type="button"
           className=" text-white bg-black ml-4 rounded-xl text-lg px-3.5 py-3 hover:text-yellow-400"
         >
-          <a href="https://drive.google.com/file/d/1cYF0_30mOscrCK1qx_HFgLWJrJg9O0iO/view?usp=drive_link">
+          <a href={CV} download="Swagat Shrestha CV">
             View CV
           </a>
         </button>
@@ -76,7 +77,9 @@ const Navbar = () => {
               : " hidden"
           }
         >
-          <div className=" flex flex-col gap-5 justify-center items-center p-4  text-lg font-semibold ">
+          <div
+            className=" flex flex-col gap-5 justify-center items-center p-4  text-lg font-semibold"
+          >
             <a href="#home" className=" cursor-pointer hover:text-white">
               Home
             </a>
@@ -93,7 +96,7 @@ const Navbar = () => {
               type="button"
               className=" text-white bg-black w-full rounded-xl text-lg px-3.5 py-3 hover:text-yellow-400"
             >
-              <a href="https://drive.google.com/file/d/1cYF0_30mOscrCK1qx_HFgLWJrJg9O0iO/view?usp=drive_link">
+              <a href={CV} download="Swagat Shrestha CV">
                 View CV
               </a>
             </button>
