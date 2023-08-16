@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e9faf9b.css",
-    "main.js": "/static/js/main.7753307d.js",
+    "main.css": "/static/css/main.4b0f5d92.css",
+    "main.js": "/static/js/main.ba84f0db.js",
     "static/media/bookstore.png": "/static/media/bookstore.e9dac72e04d00ce1047e.png",
     "static/media/updated MTapp.png": "/static/media/updated MTapp.8fc6a521c76117256e2a.png",
     "static/media/gpt3.png": "/static/media/gpt3.929f756e25e2cd35a025.png",
     "static/media/eapp.png": "/static/media/eapp.abb821fab5ac1ba9e332.png",
+    "static/media/hotel booking png.png": "/static/media/hotel booking png.29b0f89d755860ea9097.png",
     "static/media/Ecommerce.png": "/static/media/Ecommerce.791b7c64d70a559c77c0.png",
     "static/media/CV.pdf": "/static/media/CV.0a9c618bbab1ba254859.pdf",
     "static/media/bman.png": "/static/media/bman.67c11eb8a1cd262dcc24.png",
     "index.html": "/index.html",
-    "main.6e9faf9b.css.map": "/static/css/main.6e9faf9b.css.map",
-    "main.7753307d.js.map": "/static/js/main.7753307d.js.map"
+    "main.4b0f5d92.css.map": "/static/css/main.4b0f5d92.css.map",
+    "main.ba84f0db.js.map": "/static/js/main.ba84f0db.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e9faf9b.css",
-    "static/js/main.7753307d.js"
+    "static/css/main.4b0f5d92.css",
+    "static/js/main.ba84f0db.js"
   ]
 }
