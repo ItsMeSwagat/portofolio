@@ -1,6 +1,7 @@
 import React from "react";
 
 import MTmockup from "../assets/updated MTapp.png";
+import HBmockup from "../assets/hotel booking png.png"
 
 const UIUX = () => {
   return (
@@ -38,6 +39,24 @@ const UIUX = () => {
           src={MTmockup}
           alt="ticketingApp"
           className=" w-full md:w-[80%] lg:w-[80%]"
+          width="59%"
+          data-aos="zoom-in-up"
+          data-aos-duration="2000"
+        />
+      </div>
+      <div className=" flex flex-col justify-center items-center py-20">
+        <h1
+          className=" text-white text-xl font-medium sm:text-2xl md:text-3xl"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
+        >
+          <span className=" text-yellow-400">1. </span>Hotel Booking App
+          Design
+        </h1>
+        <img
+          src={HBmockup}
+          alt="ticketingApp"
+          className=" w-full md:w-[80%] lg:w-[80%] py-4"
           width="59%"
           data-aos="zoom-in-up"
           data-aos-duration="2000"
