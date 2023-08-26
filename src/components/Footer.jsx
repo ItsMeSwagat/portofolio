@@ -10,7 +10,7 @@ const Footer = () => {
           data-aos-duration="1500">
             <a href="#home" class="flex items-center">
               <span class="self-center text-4xl font-semibold whitespace-nowrap dark:text-white">
-                PORTO<span className=" text-yellow-400">FOLIO</span>
+                PORT<span className=" text-yellow-400">FOLIO</span>
               </span>
             </a>
           </div>

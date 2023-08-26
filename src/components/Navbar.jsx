@@ -19,7 +19,7 @@ const Navbar = () => {
       >
         <div className="logo mr-4 ml-2">
           <a href="#" className=" text-2xl font-bold">
-            PORTOFOLIO
+            PORTFOLIO
           </a>
         </div>
         <div className="flex justify-between gap-4 text-lg font-semibold ">
@@ -68,7 +68,7 @@ const Navbar = () => {
           data-aos="fade-down"
           data-aos-duration="2000"
         >
-          PORTOFOLIO
+          PORTFOLIO
         </a>
         <div
           className={
