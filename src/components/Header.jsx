@@ -1,41 +1,37 @@
 import React from "react";
-import Bman from "../assets/bman.png";
-
+import Bman from "../assets/me.jpg";
+import Navbar from "./Navbar";
 
 const Header = () => {
   return (
     <div
       id="home"
-      className=" relative w-full h-screen justify-center items-center bg-black" 
+      className=" relative w-full h-screen justify-center items-center bg-black"
     >
-      <div
-        className=" flex-col text-center pt-56"
-        data-aos="fade-up"
-        data-aos-duration="3000"
-      >
-        <img
-          className=" w-36 inline-flex justify-center items-center"
-          src={Bman}
-          alt="bman"
-        />
-        <span className=" text-white text-4xl sm:text-6xl md:text-7xl font-extrabold">
-          Frontend
-        </span>
-        <span className="  text-yellow-400 text-4xl sm:text-6xl md:text-7xl font-extrabold">
-          Developer
-        </span>
-        <br />
+      <Navbar />
+      <div className=" flex justify-center items-center text-center pt-20">
+        <div data-aos="fade-right" data-aos-duration="3000">
+          <img
+            className=" inline-flex justify-center items-center border-4 border-yellow-400 rounded-[20px]"
+            src={Bman}
+            alt="bman"
+          />
+        </div>
+        <div data-aos="fade-left" data-aos-duration="3000">
+          <div className=" flex flex-col">
+            <span className=" text-white text-4xl sm:text-6xl md:text-7xl font-extrabold">
+              SWAGAT
+            </span>
+            <span className="  text-yellow-400 text-4xl sm:text-6xl md:text-7xl font-extrabold">
+              SHRESTHA
+            </span>
+          </div>
+          <br />
 
-        <h3 className=" text-yellow-400 text-sm w-auto h-auto sm:text-lg md:text-2xl pt-12 px-10">
-          Hello, I'm Swagat Shrestha and thank you for visiting my portfolio!
-        </h3>
-
-        <h3 className=" text-white text-xs sm:text-sm  md:text-lg md:px-32 px-10 pt-4">
-          Im a passionate and creative frontend developer dedicated to crafting
-          engaging <br /> and visually stunning web experiences. With a strong
-          foundation in HTML, CSS, and JavaScript, <br /> I specialize in
-          turning ideas into interactive and user-friendly websites.
-        </h3>
+          <h3 className=" text-white text-sm w-auto h-auto sm:text-lg md:text-2xl pt-12 px-10">
+            Hello, I'm Swagat Shrestha and thank you for visiting my portfolio!
+          </h3>
+        </div>
       </div>
     </div>
   );

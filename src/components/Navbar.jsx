@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { BiMenu } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
-import CV from "../assets/CV.pdf";
+import CV from "../assets/SWCV.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" flex justify-center items-center h-20 bg-black">
+    <div className=" flex justify-center items-center h-20">
       <div
         className=" fixed hidden md:flex justify-between items-center bg-yellow-400 p-2 mt-4 rounded-xl z-10"
         data-aos="fade-down"
@@ -19,7 +19,7 @@ const Navbar = () => {
       >
         <div className="logo mr-4 ml-2">
           <a href="#" className=" text-2xl font-bold">
-            PORTFOLIO
+            SWAGAT SHRESTHA
           </a>
         </div>
         <div className="flex justify-between gap-4 text-lg font-semibold ">
@@ -41,7 +41,7 @@ const Navbar = () => {
           className=" text-white bg-black ml-4 rounded-xl text-lg px-3.5 py-3 hover:text-yellow-400"
         >
           <a href={CV} download="Swagat Shrestha CV">
-            View CV
+            Download CV
           </a>
         </button>
       </div>
@@ -68,7 +68,7 @@ const Navbar = () => {
           data-aos="fade-down"
           data-aos-duration="2000"
         >
-          PORTFOLIO
+          SWAGAT SHRESTHA
         </a>
         <div
           className={
@@ -77,9 +77,7 @@ const Navbar = () => {
               : " hidden"
           }
         >
-          <div
-            className=" flex flex-col gap-5 justify-center items-center p-4  text-lg font-semibold"
-          >
+          <div className=" flex flex-col gap-5 justify-center items-center p-4  text-lg font-semibold">
             <a href="#home" className=" cursor-pointer hover:text-white">
               Home
             </a>
@@ -97,7 +95,7 @@ const Navbar = () => {
               className=" text-white bg-black w-full rounded-xl text-lg px-3.5 py-3 hover:text-yellow-400"
             >
               <a href={CV} download="Swagat Shrestha CV">
-                View CV
+                Download CV
               </a>
             </button>
           </div>
