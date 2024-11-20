@@ -7,9 +7,10 @@ import Footer from "./components/Footer";
 import UIUX from "./components/UIUX";
 import { useState } from "react";
 import UC from "./components/UnderConstruction";
+import Timeline from "./components/Timeline";
 
 function App() {
-  const [UnderConstruction, setUnderConstruction] = useState(true);
+  const [UnderConstruction, setUnderConstruction] = useState(false);
 
   return (
     <div className="App">
@@ -17,8 +18,10 @@ function App() {
         <div>
           <Header />
           <About />
+          <Timeline />
           <Project />
           <UIUX />
+          
           <Contact />
           <Footer />
         </div>

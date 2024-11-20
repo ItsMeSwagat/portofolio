@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import ADP from "../assets/Ecommerce.png";
-import Bookstore from "../assets/bookstore.png";
+import jass from "../assets/jass.png";
 import EAPP from "../assets/eapp.png";
 import MovieStreaming from "../assets/MovieStreaming.png";
 import { FaGithub } from "react-icons/fa";
@@ -35,7 +35,11 @@ const Project = () => {
           data-aos="fade-up"
           data-aos-duration="500"
         >
-          <img className=" object-cover" src={ADP} alt="ADP" />
+          <img
+            className=" object-cover w-full h-[18rem] rounded-md"
+            src={ADP}
+            alt="ADP"
+          />
 
           <h1 className=" text-center text-lg sm:text-xl md:text-2xl font-bold pt-2">
             Java Project
@@ -76,26 +80,27 @@ const Project = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <img className=" object-cover" src={Bookstore} alt="ADP" />
+          <img
+            className=" object-cover w-full h-[18rem] rounded-md"
+            src={jass}
+            alt="ADP"
+          />
           <h1 className=" text-center text-lg sm:text-xl md:text-2xl font-bold pt-2">
-            BookStore Project
+            Saree Store
           </h1>
           <p className=" text-justify pt-4 font-medium text-sm">
-            <span className=" font-bold">Programming Language:</span> HTML, CSS,
-            JavaScript <br />
-          </p>
-          <p className=" text-justify pt-2 font-medium text-sm">
-            <span className=" font-bold">Tools Used:</span> VScode
+            <span className=" font-bold">Stack:</span> MERN Stack
             <br />
           </p>
+
           <p className=" text-justify pt-4 font-medium text-sm">
-            <span className=" font-bold">Description:</span>A static bookshop
-            website developed using HTML, CSS and Javascript is a platform that
-            displays a variety of books and enables users to explore and buy
-            them. The Online BookStore Static Frontend Website Design project
-            aimed to create an engaging and user-friendly website for an online
-            bookstore. The purpose of the website was to provide a platform for
-            users to explore and purchase books online.
+            <span className=" font-bold">Description:</span>A MERN stack Saree
+            store is a web application built using MongoDB, Express.js,
+            React.js, and Node.js. It provides a seamless user experience for
+            browsing, filtering, and purchasing sarees. With a dynamic frontend,
+            secure backend, and scalable database, it ensures efficient
+            inventory management, user authentication, and payment integration
+            for smooth operations
             <br />
           </p>
           <button
@@ -116,7 +121,11 @@ const Project = () => {
           data-aos="fade-up"
           data-aos-duration="1500"
         >
-          <img className=" object-cover" src={MovieStreaming} alt="ADP" />
+          <img
+            className=" object-cover w-full h-[18rem] rounded-md"
+            src={MovieStreaming}
+            alt="ADP"
+          />
           <h1 className=" text-center text-lg sm:text-xl md:text-2xl font-bold pt-2">
             Movie Streaming Project
           </h1>
@@ -157,7 +166,11 @@ const Project = () => {
           data-aos="fade-up"
           data-aos-duration="2000"
         >
-          <img className=" object-cover" src={EAPP} alt="ADP" />
+          <img
+            className=" object-cover w-full h-[18rem] rounded-md"
+            src={EAPP}
+            alt="ADP"
+          />
           <h1 className=" text-center text-lg sm:text-xl md:text-2xl font-bold pt-2">
             Ecommerce Project
           </h1>
@@ -171,15 +184,17 @@ const Project = () => {
             <br />
           </p>
           <p className=" text-justify pt-4 font-medium text-sm">
-            <span className=" font-bold">Description:</span>The E-commerce Website Development with React project was a dynamic
-            endeavor focused on creating a modern, user-friendly, and responsive
-            online shopping platform using the React JavaScript library. This
-            project aimed to provide users with a seamless and engaging shopping
-            experience while showcasing my expertise in React development, and frontend technologies. 
+            <span className=" font-bold">Description:</span>The E-commerce
+            Website Development with React project was a dynamic endeavor
+            focused on creating a modern, user-friendly, and responsive online
+            shopping platform using the React JavaScript library. This project
+            aimed to provide users with a seamless and engaging shopping
+            experience while showcasing my expertise in React development, and
+            frontend technologies.
             <span className=" text-red-500">Under Development</span>
             <br />
           </p>
-          
+
           <button
             type="button"
             className=" inline-flex justify-center items-center text-white bg-black rounded-xl text-lg px-3.5 py-3 mt-4 hover:text-yellow-400"
