@@ -9,26 +9,26 @@ const Header = () => {
       className=" relative w-full h-screen justify-center items-center bg-black"
     >
       <Navbar />
-      <div className=" flex justify-center items-center text-center pt-20">
-        <div data-aos="fade-right" data-aos-duration="3000">
+      <div className=" flex flex-col-reverse md:flex-row justify-center items-center gap-4 text-center pt-10 md:pt-20">
+        <div className=" md:pl-10" data-aos="fade-right" data-aos-duration="3000">
           <img
-            className=" inline-flex justify-center items-center border-4 border-yellow-400 rounded-[20px]"
+            className=" w-[70%] md:w-[100%] inline-flex justify-center items-center border-4 border-yellow-400 rounded-[20px]"
             src={Bman}
             alt="bman"
           />
         </div>
         <div data-aos="fade-left" data-aos-duration="3000">
-          <div className=" flex flex-col">
-            <span className=" text-white text-4xl sm:text-6xl md:text-7xl font-extrabold">
+          <div className=" flex flex-col text-4xl sm:text-6xl md:text-6xl lg:text-7xl">
+            <span className=" text-white  font-extrabold">
               SWAGAT
             </span>
-            <span className="  text-yellow-400 text-4xl sm:text-6xl md:text-7xl font-extrabold">
+            <span className="  text-yellow-400 font-extrabold">
               SHRESTHA
             </span>
           </div>
           <br />
 
-          <h3 className=" text-white text-sm w-auto h-auto sm:text-lg md:text-2xl pt-12 px-10">
+          <h3 className=" text-white text-sm w-auto h-auto sm:text-lg md:text-xl lg:text-2xl sm:pt-5 px-10">
             Hello, I'm Swagat Shrestha and thank you for visiting my portfolio!
           </h3>
         </div>
