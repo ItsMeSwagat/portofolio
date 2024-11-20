@@ -8,6 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { FaHome } from "react-icons/fa";
 import { FaSchool } from "react-icons/fa";
 import { IoSchoolSharp } from "react-icons/io5";
+import { MdWork } from "react-icons/md";
 
 const Timeline = () => {
   return (
@@ -78,7 +79,7 @@ const Timeline = () => {
             contentArrowStyle={{ borderRight: "10px solid  #FACC15" }}
             date="2024"
             iconStyle={{ background: "#FACC15", color: "#fff" }}
-            icon={<FaHome />}
+            icon={<MdWork />}
           >
             <h3 className="vertical-timeline-element-title font-bold text-3xl">
               Internship, Web Developer
