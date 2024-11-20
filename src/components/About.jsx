@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="About" className=" relative w-full h-full justify-center items-center py-20">
+    <div id="About" className=" relative w-full h-full justify-center items-center py-0">
       <div
         className="flex justify-center pt-16"
         data-aos="zoom-in-up"

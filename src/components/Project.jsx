@@ -29,9 +29,9 @@ const Project = () => {
         Various Frontend Projects
       </span>
 
-      <div className="grid grid-cols-1 place-items-center sm:grid-cols-1 md:grid-cols-2  lg:grid-cols-2 md:gap-4 mt-24 mx-4 sm:mx-10 md:mx-36 pb-16 gap-4">
+      <div className=" grid grid-cols-1 place-items-center sm:grid-cols-1 md:grid-cols-2  lg:grid-cols-2 md:gap-4 mt-24 sm:mx-10 pb-16 gap-4">
         <div
-          className=" w-[90%] h-[650px] mx-4 p-4 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg"
+          className=" w-[90%] lg:h-[650px] mx-4 p-4 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg"
           data-aos="fade-up"
           data-aos-duration="500"
         >
@@ -76,7 +76,7 @@ const Project = () => {
           </button>
         </div>
         <div
-          className=" w-[90%] h-[650px] mx-4 p-4 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg"
+          className=" w-[90%] lg:h-[650px] mx-4 p-4 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
@@ -90,6 +90,10 @@ const Project = () => {
           </h1>
           <p className=" text-justify pt-4 font-medium text-sm">
             <span className=" font-bold">Stack:</span> MERN Stack
+            <br />
+          </p>
+          <p className=" text-justify pt-2 font-medium text-sm">
+            <span className=" font-bold">Tools Used:</span> ECLIPSE, XAMP, MySQL{" "}
             <br />
           </p>
 
@@ -117,7 +121,7 @@ const Project = () => {
           </button>
         </div>
         <div
-          className=" w-[90%] h-[650px] mx-4 p-4 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg"
+          className=" w-[90%] lg:h-[650px] mx-4 p-4 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg"
           data-aos="fade-up"
           data-aos-duration="1500"
         >
@@ -162,7 +166,7 @@ const Project = () => {
           </button>
         </div>
         <div
-          className=" w-[90%] h-[650px] mx-4 p-4 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg"
+          className=" w-[90%] lg:h-[650px] mx-4 p-4 border-solid border-4 border-yellow-400 bg-yellow-400 rounded-lg"
           data-aos="fade-up"
           data-aos-duration="2000"
         >
